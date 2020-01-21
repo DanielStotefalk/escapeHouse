@@ -19,7 +19,7 @@ public enum CommandWord
     
     GET("pak"),
     
-    DROP("laten vallen"),
+    DROP("drop"),
 
     UNKNOWN("?");
 
