@@ -15,6 +15,14 @@ public enum CommandWord
 
     HELP("help"), 
 
+    INVENTORY("inventaris"),
+
+    GET("pak"),
+
+    DROP("drop"),
+
+    BACK("terug"),
+
     UNKNOWN("?");
 
     // The command string.
