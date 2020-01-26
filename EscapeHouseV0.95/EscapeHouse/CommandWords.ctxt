@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CommandWords
+comment0.text=\r\n\ Dit\ is\ de\ CommandWords\ klasse\ van\ het\ spel\ "Escape\ House".\r\n\ "Escape\ House"\ is\ een\ text\ based\ ontsnappings\ spel.\r\n\ \r\n\ Deze\ klasse\ bevat\ een\ opsomming\ van\ alle\ commando\ woorden\ die\ het\ spel\ kent.\r\n\ Het\ wordt\ gebruikt\ om\ opdrachten\ te\ herkennen\ tijdens\ het\ typen.\r\n\ \r\n\ @auteur\ \ Jelmer\ Huisman\ en\ Dani\u00EBl\ St\u00F6terfalk\r\n\ @versie\ 26-1-2020\r\n
+comment1.params=
+comment1.target=CommandWords()
+comment1.text=\r\n\ Constructor\ -\ initialiseer\ de\ commando\ woorden.\r\n
+comment2.params=commandWord
+comment2.target=CommandWord\ getCommandWord(java.lang.String)
+comment2.text=\r\n\ Zoek\ het\ CommandWord\ dat\ is\ gekoppeld\ aan\ een\ commando\ woord.\r\n\ @param\ commandWord\ Het\ woord\ om\ op\ te\ zoeken.\r\n\ @return\ Het\ CommandWord\ komt\ overeen\ met\ commandWord,\ of\ UNKNOWN\r\n\ \ \ \ \ \ \ \ \ als\ het\ geen\ geldig\ commando\ is.\r\n
+comment3.params=aString
+comment3.target=boolean\ isCommand(java.lang.String)
+comment3.text=\r\n\ Controleer\ of\ een\ gegeven\ String\ een\ geldig\ commando\ woord\ is.\r\n\ @return\ true\ als\ het\ waar\ is,\ false\ als\ het\ niet\ waar\ is.\r\n
+comment4.params=
+comment4.target=void\ showAll()
+comment4.text=\r\n\ Print\ alle\ geldige\ commandos\ naar\ System.out.\r\n
+numComments=5

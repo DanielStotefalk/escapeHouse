@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=GameMain
+comment0.text=\r\n\ Dit\ is\ de\ GameMain\ klasse\ van\ het\ spel\ "Escape\ House".\r\n\ "Escape\ House"\ is\ een\ text\ based\ ontsnappings\ spel.\r\n\r\n\ Door\ middel\ van\ deze\ klasse\ kan\ je\ het\ spel\ van\ \r\n\ buiten\ blueJ\ spelen.\r\n\ \r\n\ @auteur\ \ Jelmer\ Huisman\ en\ Dani\u00EBl\ St\u00F6terfalk\r\n\ @versie\ 26-1-2020\r\n
+comment1.params=
+comment1.target=GameMain()
+comment1.text=\r\n\ Constructor\ voor\ objecten\ van\ klasse\ GameMain\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

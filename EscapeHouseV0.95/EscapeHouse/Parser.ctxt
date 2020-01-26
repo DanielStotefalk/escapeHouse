@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Parser
+comment0.text=\r\n\ Dit\ is\ de\ Parser\ klasse\ van\ het\ spel\ "Escape\ House".\r\n\ "Escape\ House"\ is\ een\ text\ based\ ontsnappings\ spel.\r\n\ \r\n\ Deze\ parser\ leest\ gebruikersinvoer\ en\ probeert\ deze\ te\ interpreteren\ als\ een\ "Adventure"\r\n\ commando.\ Telkens\ wanneer\ het\ wordt\ aangeroepen,\ leest\ het\ een\ regel\ uit\ de\ terminal\ en\r\n\ probeert\ de\ regel\ te\ interpreteren\ als\ een\ commando\ van\ twee\ woorden.\ Het\ retouneert\ het\ commando\r\n\ als\ een\ object\ van\ klasse\ Command.\r\n\ \r\n\ De\ parser\ heeft\ een\ set\ bekende\ commando\ woorden.\ Het\ controleert\ gebruikersinvoer\ tegen\r\n\ de\ bekende\ commando's,\ en\ als\ de\ invoer\ niet\ een\ van\ de\ bekende\ commando's\ is,\ \r\n\ retouneert\ het\ een\ commando\ object\ dat\ is\ gemarkeerd\ als\ een\ unknown\ commando.\r\n\ \r\n\ @auteur\ \ Jelmer\ Huisman\ en\ Dani\u00EBl\ St\u00F6terfalk\r\n\ @versie\ 26-1-2020\r\n
+comment1.params=
+comment1.target=Parser()
+comment1.text=\r\n\ Maakt\ een\ parser\ om\ het\ terminal\ window\ te\ lezen.\r\n
+comment2.params=
+comment2.target=Command\ getCommand()
+comment2.text=\r\n\ @return\ Het\ volgende\ commando\ van\ de\ gebruiker.\r\n
+comment3.params=
+comment3.target=void\ showCommands()
+comment3.text=\r\n\ Print\ een\ lijst\ van\ geldige\ commando\ woorden.\r\n
+numComments=4
