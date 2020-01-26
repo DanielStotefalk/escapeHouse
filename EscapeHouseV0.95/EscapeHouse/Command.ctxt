@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Command
+comment0.text=\r\n\ Dit\ is\ de\ Command\ klasse\ van\ het\ spel\ "Escape\ House".\r\n\ "Escape\ House"\ is\ een\ text\ based\ ontsnappings\ spel.\r\n\ \r\n\ Deze\ klasse\ bevat\ informatie\ over\ een\ commando\ die\ is\ uitgegeven\ door\ de\ speler.\r\n\ Een\ commando\ bestaat\ momenteel\ uit\ twee\ delen\:\ een\ commandWord\ en\ een\ string.\r\n\ (bijvoorbeeld,\ als\ het\ commando\ "pak\ sleutel"\ is,\ dan\ zijn\ de\ twee\ delen\r\n\ PAK\ en\ "sleutel").\r\n\ \r\n\ Als\ het\ commando\ alleen\ \u00E9\u00E9n\ woord\ bevat,\ is\ het\ tweede\ woord\ <null>\r\n\ \r\n\ @auteur\ \ Jelmer\ Huisman\ en\ Dani\u00EBl\ St\u00F6terfalk\r\n\ @versie\ 26-1-2020\r\n
+comment1.params=commandWord\ secondWord
+comment1.target=Command(CommandWord,\ java.lang.String)
+comment1.text=\r\n\ Maakt\ een\ commando\ object\ aan.\ Eerste\ en\ tweede\ woorden\ moeten\ worden\ verstrekt,\ maar\r\n\ het\ tweede\ woord\ mag\ null\ zijn.\r\n\ @param\ commandWord\ Het\ CommandWord.\ UNKNOWN\ als\ het\ commando\ niet\ herkend\ werd.\r\n\ @param\ secondWord\ Het\ tweede\ woord\ van\ de\ het\ commando.\ Mag\ null\ zijn.\r\n
+comment2.params=
+comment2.target=CommandWord\ getCommandWord()
+comment2.text=\r\n\ Retourneer\ het\ commando\ woord\ (het\ eerste\ woord)\ van\ dit\ commando.\r\n\ @return\ Het\ commando\ woord.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getSecondWord()
+comment3.text=\r\n\ @return\ Het\ tweede\ woord\ van\ dit\ commando.\ Retouneert\ null\ als\ er\ geen\r\n\ tweede\ woord\ is.\r\n
+comment4.params=
+comment4.target=boolean\ isUnknown()
+comment4.text=\r\n\ @return\ true\ als\ het\ commando\ niet\ werd\ begrepen.\r\n
+comment5.params=
+comment5.target=boolean\ hasSecondWord()
+comment5.text=\r\n\ @return\ true\ als\ het\ commando\ een\ tweede\ woord\ bevat.\r\n
+numComments=6

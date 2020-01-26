@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ Dit\ is\ de\ Item\ klasse\ van\ het\ spel\ "Escape\ House".\r\n\ "Escape\ House"\ is\ een\ text\ based\ ontsnappings\ spel.\r\n\ \r\n\ Een\ "Item"\ staat\ voor\ een\ voorwerp\ in\ het\ spel.\r\n\ \r\n\ @auteur\ \ Jelmer\ Huisman\ en\ Dani\u00EBl\ St\u00F6terfalk\r\n\ @versie\ 26-1-2020\r\n
+comment1.params=newdescription\ newweight\ newpickup
+comment1.target=Item(java.lang.String,\ int,\ boolean)
+comment1.text=\r\n\ Maakt\ een\ voorwerp\ aan\ met\ een\ gewicht.\r\n\ @param\ newdescription\ De\ beschrijving\ het\ voorwerp.\r\n\ \ \ \ \ \ \ \ newweight\ Het\ gewicht\ van\ het\ voorwerp.\r\n\ \ \ \ \ \ \ \ newpickup\ Kan\ je\ het\ voorwerp\ oppakken,\ ja\ of\ nee.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getDescription()
+comment2.text=\r\n\ Geeft\ een\ beschrijving\ van\ het\ voorwerp.\r\n\ @return\ beschrijving\ van\ het\ voorwerp.\r\n
+comment3.params=
+comment3.target=int\ getWeight()
+comment3.text=\r\n\ Geeft\ het\ gewicht\ van\ het\ voorwerp.\r\n\ @return\ gewicht\ van\ het\ voorwerp.\r\n
+comment4.params=
+comment4.target=boolean\ getPickup()
+comment4.text=\r\n\ Geeft\ aan\ of\ je\ het\ voorwerp\ op\ kan\ pakken,\ ja\ of\ nee.\r\n\ @return\ ja\ of\ nee\ of\ je\ hebt\ voorwerp\ kan\ oppakken.\r\n
+numComments=5

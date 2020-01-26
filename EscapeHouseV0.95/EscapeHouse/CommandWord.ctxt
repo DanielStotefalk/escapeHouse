@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CommandWord
+comment0.text=\r\n\ Dit\ is\ de\ CommandWord\ klasse\ van\ het\ spel\ "Escape\ House".\r\n\ "Escape\ House"\ is\ een\ text\ based\ ontsnappings\ spel.\r\n\ \r\n\ Hier\ staan\ alle\ geldige\ commando's\ van\ het\ spel\r\n\ samen\ met\ een\ string\ met\ de\ nederlandse\ taal.\r\n\ \r\n\ @auteur\ \ Jelmer\ Huisman\ en\ Dani\u00EBl\ St\u00F6terfalk\r\n\ @versie\ 26-1-2020\r\n
+comment1.params=commandString
+comment1.target=CommandWord(java.lang.String)
+comment1.text=\r\n\ Initialiseer\ met\ het\ bijbehorende\ commando.\r\n\ @param\ commandString\ Het\ commando\ string.\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ @return\ Het\ commando\ als\ een\ string.\r\n
+numComments=3
